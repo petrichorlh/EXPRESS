@@ -136,9 +136,9 @@ case "energy":       /* Optimization Object: Energy Consumption*/
    
    	 +	在IntelliJ IDEA中创建一个maven项目.
  	 +	在项目目录中，使用以下命令初始化一个空的Git存储库：```	git init ```
-      +	添加项目的Git仓库作为远程源：``` git remote add origin https://github.com/ISEC-AHU/EXPRESS2.0 ```
-      +	获取仓库的内容到您的计算机上：``` git pull origin master ```
-       +	utils包下的openfaas服务相关类OpenFaasUtils需要针对您自己部署的服务进行修改。如果您无法部署openfaas，我们提供了一种在本地运行它的方法：修改核心包中的ServiceComposition、ResourceAllocation和SecurityService，将openFaasFlag设置为0，然后重新启动项目以使用本地服务。
+         +	添加项目的Git仓库作为远程源：``` git remote add origin https://github.com/ISEC-AHU/EXPRESS2.0 ```
+         +	获取仓库的内容到您的计算机上：``` git pull origin master ```
+         +	utils包下的openfaas服务相关类OpenFaasUtils需要针对您自己部署的服务进行修改。如果您无法部署openfaas，我们提供了一种在本地运行它的方法：修改核心包中的ServiceComposition、ResourceAllocation和SecurityService，将openFaasFlag设置为0，然后重新启动项目以使用本地服务。
          +	项目操作需要多次请求Autonavi后台服务，请确保您的网络畅通无阻。
          +	我们为您提供免费的带有访问限制的js api密钥，您也可以申请新的js api密钥，只需将页面中的密钥更改为您自己的密钥即可。
          +	URL: http://localhost:8081

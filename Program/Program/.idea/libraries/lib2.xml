@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/slf4j-api-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/bcprov-jdk15on-151.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/opencv-300.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/zxing-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/javacv.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/bridj-0.7-20130703.103049-42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/webcam-capture-0.3.10-RC4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/slf4j-nop-1.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/rs2xml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/zxing-1.7-javase.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/opencv.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/mysql-connector-java-5.1.23-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/User/dist/lib/javacpp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

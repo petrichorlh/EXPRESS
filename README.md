@@ -116,7 +116,7 @@ case "energy":       /* Optimization Object: Energy Consumption*/
 
 # 部署EXPRESS系统
 
-1.  部署环境
+1.  部署环境：
    
  	+	开发环境: IntelliJ IDEA 2020.1 x64
 	+	编程语言: Java
@@ -126,8 +126,8 @@ case "energy":       /* Optimization Object: Energy Consumption*/
 	+	Mybatis-Plus: 3.5.1
 	+	Amap js api:1.4.15
 	+	OpenFaaS
-2.  部署
-   	+	在IntelliJ IDEA中创建一个maven项目.
+2.  部署：
+   	+	在IntelliJ IDEA中创建一个maven项目。
  	+	在项目目录中，使用以下命令初始化一个空的Git存储库：```	git init ```
     +	添加项目的Git仓库作为远程源：``` git remote add origin https://github.com/ISEC-AHU/EXPRESS2.0 ```
       +	获取仓库的内容到您的计算机上：``` git pull origin master ```

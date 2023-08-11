@@ -107,8 +107,11 @@ case "energy":       /* Optimization Object: Energy Consumption*/
 1.配送能耗和时间
 ![image](Figure/Energy.jpg)
 ![image](Figure/DeliveryTime.jpg)
+
 * 我们根据服务响应时间和交付服务开销来评估所实现的系统，衡量UAV-UGV交付系统服务开销的核心指标是配送能耗和配送时间。在比较不同配送订单的服务成本后可以发现，使用服务协作方法的配送解决方案的能量和时间成本分别比其他方法低7%-27%和27%-50%。
+  
 ![](Figure/Response-Time.jpg)
+
 * 对于系统响应时间，我们测试了部署在OpenFaaS中的系统的10个功能模块，它们的平均响应时间都远小于250毫秒的理想服务器响应时间。
 
 # 部署EXPRESS系统

@@ -2,7 +2,7 @@
 * 边缘计算中面向智慧物流的服务协同管理系统
 * 在现有的EdgeWorkflow系统 (https://github.com/ISEC-AHU/EdgeWorkflow) 的基础上，EXPRESS系统设计并实现了配送服务协同管理模块、智能服务协同管理模块和隐私保护与安全管理模块，能够实现对无人机和无人车配送服务协同过程的监控、协同方案的优化，部署和管理相关智能服务，同时保证服务协同的安全性。
 * 提供多维度可视化的服务协同过程监控；提供多指标优化的无人机/无人车配送服务协同方案生成策略；提供多方位可靠的安全防护技术；
-* EXPRESS系统的前端采用Bootstrap框架，后端采用Spring Boot、OpenCV开源框架，边缘计算环境采用无服务器架构Serverless。
+* EXPRESS系统的前端采用Bootstrap框架，后台采用Spring Boot、OpenCV开源框架，边缘计算环境采用基于Serverless架构的OpenFaaS实现。
 * 演示视频：
 # 开发人员
 * 开发单位:

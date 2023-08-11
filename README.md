@@ -48,7 +48,7 @@ EXPRESS系统的框架如下图所示，它分为服务层、服务协同管理�
 | 无人车<small>2</small>       |   50   |    100     | 4|  12000 |     2100     |
 | 无人车<small>3</small>       |  80  |    130    | 5| 20000 |    2500     |
 
-##服务组合和资源管理接口
+## 服务组合和资源管理接口
 
 我们在时间和能耗等指标上对UAV-UGV协同算法与其他两种策略（仅使用UAV和仅使用UGV）进行了详细的比较实验。使用EXPRESS框架的服务组合和资源管理接口来实现服务协同算法，算法接口可以在“src/main/java.com/example/core”路径中找到。
 1. ServiceComposition.java
@@ -111,8 +111,7 @@ case "energy":       /* Optimization Object: Energy Consumption*/
 ![](Figure/Response-Time.jpg)
 * 对于系统响应时间，我们测试了部署在OpenFaaS中的系统的10个功能模块，它们的平均响应时间都远小于250毫秒的理想服务器响应时间。
 
-# 全文访问
-## 部署EXPRESS系统
+# 部署EXPRESS系统
 
 1.  部署环境
    
